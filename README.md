@@ -34,6 +34,10 @@ The analysis of the election show that:
 ## Election-Audit Summary
 The script used to perform our election audit can be used for any election as long as the file path to the csv data is updated to pull the data from the correct source. Below is a screenshot of lines 9 and 11 which would need to be updated to get the results of another election.
 
+![Screen Shot 2021-11-02 at 2 17 40 AM](https://user-images.githubusercontent.com/91925639/139795791-3f358a62-6c84-4141-9607-bf79c82d6092.png)
+
+After updating the file paths to look up to the correct data source we would then need to reference the correct columns in the cvs file. Below is a screenshot of lines 48 and 51 which would need to be updated to get the accurate county name and candidate name. It is important to note that the first row of data is considered to be our starting point of 0. Therefore, although candidate name is in the third row it would need to reference row[2] and county name would need to reference row [1]. 
+
 
 
 ## Resources
