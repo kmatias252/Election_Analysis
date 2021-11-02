@@ -13,7 +13,7 @@ Our objective is to assist a Colorado Board of Elections employee by completing 
 8. Calculate the percentage of votes casted in each candidate.
 9. Determine the county with the largest voter turnout.
 
-## Summary
+## Election-Audit Results
 The analysis of the election show that: 
 - There were 369,711 votes cast in the election.
 - The breakdown of the number of votes and the percent of total votes for each county:
@@ -21,15 +21,20 @@ The analysis of the election show that:
  	- Denver: 82.8% (306,055) votes
  	- Arapahoe: 6.7% (24,801) votes
 - Denver was the county with the largest voter turnout.
--The breakdown of the number of votes and the percent of total votes for each candidate:
+- The breakdown of the number of votes and the percent of total votes for each candidate:
  	- Charles Casper Stockham: 23.0% (85,213) votes 
- 	- Diana DeGette: 73.8% (272,892) votes
+	- Diana DeGette: 73.8% (272,892) votes
  	- Raymon Anthony Doane: 3.1% (11,606) votes
--Diana DeGette was the winner of the election was. 
+- Diana DeGette was the winner of the election. 
 	- Winning Vote Count: 272,892 votes 
 	- Winning Percentage: 73.8% of votes
 	
-	
+![Screen Shot 2021-11-02 at 1 46 50 AM](https://user-images.githubusercontent.com/91925639/139793018-4f60e06d-a710-4229-9b09-de3a73540307.png)
+
+## Election-Audit Summary
+The script used to perform our election audit can be used for any election as long as the file path to the csv data is updated to pull the data from the correct source. Below is a screenshot of lines 9 and 11 which would need to be updated to get the results of another election.
+
+
 
 ## Resources
 - Data Source: election_results.csv
