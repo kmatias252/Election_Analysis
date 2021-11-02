@@ -38,7 +38,7 @@ The script used to perform our election audit can be used for any election as lo
 
 After updating the file paths to look up to the correct data source we would then need to reference the correct columns in the cvs file. Below is a screenshot of lines 48 and 51 which would need to be updated to get the accurate county name and candidate name. It is important to note that the first row of data is considered to be our starting point of 0. Therefore, although candidate name is in the third row it would need to reference row[2] and county name would need to reference row [1]. 
 
-
+![Screen Shot 2021-11-02 at 2 25 01 AM](https://user-images.githubusercontent.com/91925639/139796717-bb4133e9-31f1-4713-a3ea-31bb3da86240.png)
 
 ## Resources
 - Data Source: election_results.csv
